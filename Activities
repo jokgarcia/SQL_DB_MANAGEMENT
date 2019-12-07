@@ -6,7 +6,14 @@ UPDATE Last_Hike = 50%
 on all who joined the company 
 BETWEEN 2000 to 2019
 
-QUERY :
+QUERY : 
+BEGIN TRANSACTION
+  UPDATE x
+  SET x.Last_Hike = '50%'
+  FROM tblEmployee AS x
+  WHERE x.Year_of_Joining BETWEEN '2000' AND '2019'
+  --COMMIT TRANSACTION
+  --ROLLBACK TRANSACTION
 
 
 Group # 2 - tblEmployees
