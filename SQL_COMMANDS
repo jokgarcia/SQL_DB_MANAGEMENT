@@ -1,0 +1,15 @@
+--DQL
+--SELECT First_Name,Last_Name,Date_of_Birth FROM [dbo].[tblEmployees]
+--WHERE Gender = 'F'
+--WHERE Mother_s_Name LIKE '%childers%'
+--WHERE Date_of_Birth BETWEEN '1990-01-01' AND '1990-12-31'
+--ORDER BY Date_of_Birth ASC
+
+--SELECT Year_of_Joining,First_Name,Last_Name FROM [dbo].[tblEmployees]
+--WHERE Year_of_Joining = 1983
+--GROUP BY Year_of_Joining,First_Name,Last_Name
+
+--SELECT * FROM [dbo].[tblEmployees]
+--WHERE Last_Name IN('smith','jones')
+
+
