@@ -12,4 +12,32 @@
 --SELECT * FROM [dbo].[tblEmployees]
 --WHERE Last_Name IN('smith','jones')
 
+--DML
+--DML
+--INSERT
+--431073
+--473339
+--938159
+--INSERT INTO [dbo].[tblTimeLogs](EmployeeId, TimeIn, [TimeOut],
+--            TotalHours, Comments)
+--VALUES (473339,DATEADD(hh,-5,GETDATE()),GETDATE(),5,'Undertime')
+--UPDATE tblEmployees SET User_Name = 'user1'
+--WHERE Emp_ID = 779497
+--SELECT * FROM tblEmployees
+--WHERE Emp_ID = 779497
+
+
+---JOINS
+SELECT emp.*,tl.* FROM tblEmployees emp
+JOIN tblTimeLogs tl 
+ON emp.Emp_ID = tl.EmployeeId
+WHERE emp.Year_of_Joining BETWEEN 1990 AND 2019
+
+SELECT emp.*,tl.* FROM tblEmployees emp
+LEFT JOIN tblTimeLogs tl 
+ON emp.Emp_ID = tl.EmployeeId
+WHERE emp.Year_of_Joining BETWEEN 1990 AND 2019
+
+
+
 
