@@ -13,6 +13,10 @@ Group # 2 - tblEmployees
 Get All Employees with @shell.com email
 AND year joined BETWEEN 2000 and 2019
 
+Sol:
+select * from tblEmploye where E_mail like '%@shell.com%' AND year_of_joining between '2000' and '2019';
+
+
 QUERY :
 
 	Select  Emp_ID,First_Name, Middle_Initial, Last_Name,E_Mail,Year_of_Joining  from tblEmployee
