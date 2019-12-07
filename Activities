@@ -1,0 +1,36 @@
+ACTIVITIES
+
+
+Group # 1 - tblEmployees
+UPDATE Last_Hike = 50%
+on all who joined the company 
+BETWEEN 2000 to 2019
+
+QUERY :
+
+
+Group # 2 - tblEmployees
+Get All Employees with @shell.com email
+AND year joined BETWEEN 2000 and 2019
+
+QUERY :
+
+Group # 3 - tblEmployees
+Display records of employees who joined 'November'
+
+QUERY :
+
+
+Group # 4 - tblEmployees
+Combine joining date.. Month / Day / Year
+Order by year Ascending
+
+QUERY :
+
+
+Group # 5 - tblEmployees
+Display records of employess in Full Name
+GRoup By Region
+
+QUERY :
+
